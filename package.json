@@ -1,5 +1,5 @@
 {
-  "name": "@thedrivenceo/threadflow-mcp",
+  "name": "threadflow-mcp",
   "version": "1.0.0",
   "description": "MCP server for Threadflow - manage your Threads content from any AI tool",
   "main": "dist/index.js",
