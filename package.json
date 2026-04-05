@@ -1,0 +1,26 @@
+{
+  "name": "@thedrivenceo/threadflow-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Threadflow - manage your Threads content from any AI tool",
+  "main": "dist/index.js",
+  "bin": {
+    "threadflow-mcp": "dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": ["mcp", "threads", "social-media", "content-scheduler", "ai"],
+  "author": "The Driven CEO",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.8.0"
+  }
+}
